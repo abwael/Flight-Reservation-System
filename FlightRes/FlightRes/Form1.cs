@@ -6,5 +6,19 @@ namespace FlightRes
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            Form admin = new AdminPanel();
+            admin.Show();
+            this.Hide();
+        }
+
+        private void PassengerKey_Click(object sender, EventArgs e)
+        {
+            Form passenger = new PassengerPanel();
+            passenger.Show();
+            this.Hide();
+        }
     }
 }
