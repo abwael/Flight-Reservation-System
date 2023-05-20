@@ -17,3 +17,22 @@ C:\Users\Omar\source\repos\Database_proj\Database_Project\FlightRes\FlightRes\bi
 C:\Users\Omar\source\repos\Database_proj\Database_Project\FlightRes\FlightRes\bin\Debug\net6.0-windows\FlightRes.pdb
 C:\Users\Omar\source\repos\Database_proj\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.genruntimeconfig.cache
 C:\Users\Omar\source\repos\Database_proj\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\ref\FlightRes.dll
+C:\Users\areyo\Desktop\FCAI\Database project\Database_Project\FlightRes\FlightRes\bin\Debug\net6.0-windows\FlightRes.exe
+C:\Users\areyo\Desktop\FCAI\Database project\Database_Project\FlightRes\FlightRes\bin\Debug\net6.0-windows\FlightRes.deps.json
+C:\Users\areyo\Desktop\FCAI\Database project\Database_Project\FlightRes\FlightRes\bin\Debug\net6.0-windows\FlightRes.runtimeconfig.json
+C:\Users\areyo\Desktop\FCAI\Database project\Database_Project\FlightRes\FlightRes\bin\Debug\net6.0-windows\FlightRes.dll
+C:\Users\areyo\Desktop\FCAI\Database project\Database_Project\FlightRes\FlightRes\bin\Debug\net6.0-windows\FlightRes.pdb
+C:\Users\areyo\Desktop\FCAI\Database project\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.csproj.AssemblyReference.cache
+C:\Users\areyo\Desktop\FCAI\Database project\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.AdminPanel.resources
+C:\Users\areyo\Desktop\FCAI\Database project\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.PassengerPanel.resources
+C:\Users\areyo\Desktop\FCAI\Database project\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.csproj.GenerateResource.cache
+C:\Users\areyo\Desktop\FCAI\Database project\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\areyo\Desktop\FCAI\Database project\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.AssemblyInfoInputs.cache
+C:\Users\areyo\Desktop\FCAI\Database project\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.AssemblyInfo.cs
+C:\Users\areyo\Desktop\FCAI\Database project\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.csproj.CoreCompileInputs.cache
+C:\Users\areyo\Desktop\FCAI\Database project\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.dll
+C:\Users\areyo\Desktop\FCAI\Database project\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\refint\FlightRes.dll
+C:\Users\areyo\Desktop\FCAI\Database project\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.pdb
+C:\Users\areyo\Desktop\FCAI\Database project\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.genruntimeconfig.cache
+C:\Users\areyo\Desktop\FCAI\Database project\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\ref\FlightRes.dll
+C:\Users\areyo\Desktop\FCAI\Database project\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.Start.resources

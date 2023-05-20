@@ -1,8 +1,8 @@
 namespace FlightRes
 {
-    public partial class Form1 : Form
+    public partial class Start : Form
     {
-        public Form1()
+        public Start()
         {
             InitializeComponent();
         }
@@ -19,6 +19,16 @@ namespace FlightRes
             Form passenger = new PassengerPanel();
             passenger.Show();
             this.Hide();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }
