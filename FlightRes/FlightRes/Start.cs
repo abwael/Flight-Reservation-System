@@ -7,20 +7,6 @@ namespace FlightRes
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-            Form admin = new AdminPanel();
-            admin.Show();
-            this.Hide();
-        }
-
-        private void PassengerKey_Click(object sender, EventArgs e)
-        {
-            Form passenger = new PassengerPanel();
-            passenger.Show();
-            this.Hide();
-        }
-
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
@@ -29,6 +15,25 @@ namespace FlightRes
         private void label1_Click_1(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form login = new Login();
+            login.Show();
+            this.Hide();
+        }
+
+        private void Start_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form signup = new Signup();
+            signup.Show();
+            this.Hide();
         }
     }
 }

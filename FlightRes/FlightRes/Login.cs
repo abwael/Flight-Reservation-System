@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace FlightRes
 {
-    public partial class AdminPanel : Form
+    public partial class Login : Form
     {
-        public AdminPanel()
+        public Login()
         {
             InitializeComponent();
         }
@@ -22,19 +22,21 @@ namespace FlightRes
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void Welcome_text_Click_1(object sender, EventArgs e)
         {
 
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-
+            Form start = new Start();
+            start.Show();
+            this.Close();
         }
     }
 }

@@ -36,3 +36,5 @@ C:\Users\areyo\Desktop\FCAI\Database project\Database_Project\FlightRes\FlightRe
 C:\Users\areyo\Desktop\FCAI\Database project\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.genruntimeconfig.cache
 C:\Users\areyo\Desktop\FCAI\Database project\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\ref\FlightRes.dll
 C:\Users\areyo\Desktop\FCAI\Database project\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.Start.resources
+C:\Users\areyo\Desktop\FCAI\Database project\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.Login.resources
+C:\Users\areyo\Desktop\FCAI\Database project\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.Signup.resources
