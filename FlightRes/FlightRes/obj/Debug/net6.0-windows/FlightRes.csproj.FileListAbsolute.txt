@@ -38,3 +38,31 @@ C:\Users\areyo\Desktop\FCAI\Database project\Database_Project\FlightRes\FlightRe
 C:\Users\areyo\Desktop\FCAI\Database project\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.Start.resources
 C:\Users\areyo\Desktop\FCAI\Database project\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.Login.resources
 C:\Users\areyo\Desktop\FCAI\Database project\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.Signup.resources
+C:\Users\Omar\source\repos\FlightReservation\Database_Project\FlightRes\FlightRes\bin\Debug\net6.0-windows\FlightRes.exe
+C:\Users\Omar\source\repos\FlightReservation\Database_Project\FlightRes\FlightRes\bin\Debug\net6.0-windows\FlightRes.deps.json
+C:\Users\Omar\source\repos\FlightReservation\Database_Project\FlightRes\FlightRes\bin\Debug\net6.0-windows\FlightRes.runtimeconfig.json
+C:\Users\Omar\source\repos\FlightReservation\Database_Project\FlightRes\FlightRes\bin\Debug\net6.0-windows\FlightRes.dll
+C:\Users\Omar\source\repos\FlightReservation\Database_Project\FlightRes\FlightRes\bin\Debug\net6.0-windows\FlightRes.pdb
+C:\Users\Omar\source\repos\FlightReservation\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.csproj.AssemblyReference.cache
+C:\Users\Omar\source\repos\FlightReservation\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.AdminPanel.resources
+C:\Users\Omar\source\repos\FlightReservation\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.Login.resources
+C:\Users\Omar\source\repos\FlightReservation\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.PassengerPanel.resources
+C:\Users\Omar\source\repos\FlightReservation\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.Signup.resources
+C:\Users\Omar\source\repos\FlightReservation\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.Start.resources
+C:\Users\Omar\source\repos\FlightReservation\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.csproj.GenerateResource.cache
+C:\Users\Omar\source\repos\FlightReservation\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Omar\source\repos\FlightReservation\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.AssemblyInfoInputs.cache
+C:\Users\Omar\source\repos\FlightReservation\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.AssemblyInfo.cs
+C:\Users\Omar\source\repos\FlightReservation\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.csproj.CoreCompileInputs.cache
+C:\Users\Omar\source\repos\FlightReservation\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.dll
+C:\Users\Omar\source\repos\FlightReservation\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\refint\FlightRes.dll
+C:\Users\Omar\source\repos\FlightReservation\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.pdb
+C:\Users\Omar\source\repos\FlightReservation\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.genruntimeconfig.cache
+C:\Users\Omar\source\repos\FlightReservation\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\ref\FlightRes.dll
+C:\Users\Omar\source\repos\FlightReservation\Database_Project\FlightRes\FlightRes\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\Omar\source\repos\FlightReservation\Database_Project\FlightRes\FlightRes\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Omar\source\repos\FlightReservation\Database_Project\FlightRes\FlightRes\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Omar\source\repos\FlightReservation\Database_Project\FlightRes\FlightRes\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Omar\source\repos\FlightReservation\Database_Project\FlightRes\FlightRes\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Omar\source\repos\FlightReservation\Database_Project\FlightRes\FlightRes\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Omar\source\repos\FlightReservation\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.csproj.CopyComplete
