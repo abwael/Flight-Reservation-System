@@ -17,6 +17,19 @@ namespace FlightRes
         public PassengerPanel()
         {
             InitializeComponent();
+            SqlConnection con = new SqlConnection(Program.connectionString);
+            con.Open();
+            SqlCommand getName = new SqlCommand("select P_FNAME, P_LNAME from passenger where status = 1", con);
+            SqlDataReader data = getName.ExecuteReader();
+            while (data.Read())
+            {
+                String Fname = data.GetValue(0).ToString();
+                String Lname = data.GetValue(1).ToString();
+                label1.Visible= true;
+                label1.Text = Fname + " " + Lname;
+            }
+            data.Close();
+            con.Close();
         }
 
         private void button6_Click(object sender, EventArgs e)
@@ -36,6 +49,16 @@ namespace FlightRes
             Form start = new Start();
             start.Show();
             this.Hide();
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
 
         }
     }
