@@ -82,5 +82,12 @@ namespace FlightRes
         {
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form edit = new EditPassengerPass();
+            edit.Show();
+            this.Hide();
+        }
     }
 }

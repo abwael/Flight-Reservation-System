@@ -51,6 +51,7 @@
             button3.TabIndex = 90;
             button3.Text = "Edit Password";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // goodNews
             // 

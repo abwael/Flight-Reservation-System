@@ -271,6 +271,7 @@ create table SEAT (
 )
 go
 
+
 alter table AIRCRAFT
    add constraint FK_AIRCRAFT_ADDS_UPDA_ADMIN foreign key (A_EMAIL)
       references ADMIN (A_EMAIL)

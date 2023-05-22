@@ -80,13 +80,19 @@ namespace FlightRes
                 MessageBox.Show("Data Updated Successfully");
             }
 
-            con.Close();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             Form view = new viewProfile();
             view.Show();
+            this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form editpassword = new editpassword();
+            editpassword.Show();
             this.Hide();
         }
     }
