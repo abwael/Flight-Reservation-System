@@ -50,7 +50,7 @@ namespace FlightRes
 
         private void button1_Click(object sender, EventArgs e)
         {
-            SqlConnection con = new SqlConnection("Data Source =.; Initial Catalog = FlightSystem; Integrated Security = True");
+            SqlConnection con = new SqlConnection(Program.connectionString);
             con.Open();
             try
             {

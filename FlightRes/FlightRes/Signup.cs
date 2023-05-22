@@ -42,7 +42,7 @@ namespace FlightRes
             {
                 if (radioButton1.Checked)
                 {
-                    SqlConnection con = new SqlConnection("Data Source =.; Initial Catalog = FlightSystem; Integrated Security = True");
+                    SqlConnection con = new SqlConnection(Program.connectionString);
                     con.Open();
                     SqlCommand myCommand = new SqlCommand("insert into ADMIN (A_FNAME,A_EMAIL,A_LNAME,A_PASSWORD,A_PHONE_NUMBER) " +
                         "values('" + textBox1.Text + "','" + textBox4.Text + "','" + textBox2.Text + "','" + textBox6.Text + "','" + textBox3.Text + "')", con);
@@ -51,7 +51,7 @@ namespace FlightRes
                 }
                 else
                 {
-                    SqlConnection con = new SqlConnection("Data Source =.; Initial Catalog = FlightSystem; Integrated Security = True");
+                    SqlConnection con = new SqlConnection(Program.connectionString);
                     con.Open();
                     SqlCommand myCommand = new SqlCommand("insert into PASSENGER (P_FNAME,P_EMAIL,P_LNAME,P_PASSWORD,P_PHONE_NUMBER) " +
                         "values('" + textBox1.Text + "','" + textBox4.Text + "','" + textBox2.Text + "','" + textBox6.Text + "','" + textBox3.Text + "')", con);

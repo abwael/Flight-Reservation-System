@@ -1,7 +1,10 @@
+using System.Security.Cryptography.X509Certificates;
+
 namespace FlightRes
 {
     internal static class Program
     {
+        public static String connectionString = "Data Source =.; Initial Catalog = FlightSystem; Integrated Security = True";
         /// <summary>
         ///  The main entry point for the application.
         /// </summary>

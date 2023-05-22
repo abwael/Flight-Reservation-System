@@ -21,7 +21,7 @@ namespace FlightRes
 
         private void button6_Click(object sender, EventArgs e)
         {
-            SqlConnection con = new SqlConnection("Data Source =.; Initial Catalog = FlightSystem; Integrated Security = True");
+            SqlConnection con = new SqlConnection(Program.connectionString);
             con.Open();
             SqlCommand getEmail = new SqlCommand("select P_EMAIL from passenger where status = 1", con);
             SqlDataReader email = getEmail.ExecuteReader();
