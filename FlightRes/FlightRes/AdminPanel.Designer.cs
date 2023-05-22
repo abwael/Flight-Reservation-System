@@ -31,8 +31,6 @@
             Welcome_text = new Label();
             button2 = new Button();
             button1 = new Button();
-            button3 = new Button();
-            button4 = new Button();
             button5 = new Button();
             button6 = new Button();
             label1 = new Label();
@@ -50,7 +48,7 @@
             // 
             // button2
             // 
-            button2.Location = new Point(235, 196);
+            button2.Location = new Point(406, 123);
             button2.Name = "button2";
             button2.Size = new Size(156, 53);
             button2.TabIndex = 46;
@@ -59,34 +57,17 @@
             // 
             // button1
             // 
-            button1.Location = new Point(235, 137);
+            button1.Location = new Point(224, 123);
             button1.Name = "button1";
             button1.Size = new Size(156, 53);
             button1.TabIndex = 45;
             button1.Text = "View all flights";
             button1.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            button3.Location = new Point(412, 137);
-            button3.Name = "button3";
-            button3.Size = new Size(156, 53);
-            button3.TabIndex = 47;
-            button3.Text = "Edit Flights";
-            button3.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            button4.Location = new Point(412, 196);
-            button4.Name = "button4";
-            button4.Size = new Size(156, 53);
-            button4.TabIndex = 48;
-            button4.Text = "Edit Aircrafts";
-            button4.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click_1;
             // 
             // button5
             // 
-            button5.Location = new Point(321, 255);
+            button5.Location = new Point(315, 192);
             button5.Name = "button5";
             button5.Size = new Size(156, 53);
             button5.TabIndex = 49;
@@ -96,7 +77,7 @@
             // 
             // button6
             // 
-            button6.Location = new Point(321, 314);
+            button6.Location = new Point(315, 251);
             button6.Name = "button6";
             button6.Size = new Size(156, 53);
             button6.TabIndex = 50;
@@ -124,8 +105,6 @@
             Controls.Add(label1);
             Controls.Add(button6);
             Controls.Add(button5);
-            Controls.Add(button4);
-            Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(Welcome_text);
@@ -140,8 +119,6 @@
         private Label Welcome_text;
         private Button button2;
         private Button button1;
-        private Button button3;
-        private Button button4;
         private Button button5;
         private Button button6;
         private Label label1;

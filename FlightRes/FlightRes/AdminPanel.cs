@@ -78,5 +78,13 @@ namespace FlightRes
             view_profile.Show();
             this.Hide();
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Form flights = new ViewFlightsAdmin();
+            flights.Show();
+            this.Hide();
+
+        }
     }
 }

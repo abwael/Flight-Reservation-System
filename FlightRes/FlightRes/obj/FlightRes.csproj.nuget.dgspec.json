@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Youssef\\OneDrive\\Desktop\\db\\Database_Project\\FlightRes\\FlightRes\\FlightRes.csproj": {}
+    "C:\\Users\\areyo\\Desktop\\FCAI\\Database Project-main\\Database_Project\\FlightRes\\FlightRes\\FlightRes.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Youssef\\OneDrive\\Desktop\\db\\Database_Project\\FlightRes\\FlightRes\\FlightRes.csproj": {
+    "C:\\Users\\areyo\\Desktop\\FCAI\\Database Project-main\\Database_Project\\FlightRes\\FlightRes\\FlightRes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Youssef\\OneDrive\\Desktop\\db\\Database_Project\\FlightRes\\FlightRes\\FlightRes.csproj",
+        "projectUniqueName": "C:\\Users\\areyo\\Desktop\\FCAI\\Database Project-main\\Database_Project\\FlightRes\\FlightRes\\FlightRes.csproj",
         "projectName": "FlightRes",
-        "projectPath": "C:\\Users\\Youssef\\OneDrive\\Desktop\\db\\Database_Project\\FlightRes\\FlightRes\\FlightRes.csproj",
-        "packagesPath": "C:\\Users\\Youssef\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Youssef\\OneDrive\\Desktop\\db\\Database_Project\\FlightRes\\FlightRes\\obj\\",
+        "projectPath": "C:\\Users\\areyo\\Desktop\\FCAI\\Database Project-main\\Database_Project\\FlightRes\\FlightRes\\FlightRes.csproj",
+        "packagesPath": "C:\\Users\\areyo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\areyo\\Desktop\\FCAI\\Database Project-main\\Database_Project\\FlightRes\\FlightRes\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Youssef\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\areyo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
