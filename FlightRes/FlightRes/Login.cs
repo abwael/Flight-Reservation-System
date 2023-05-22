@@ -64,6 +64,8 @@ namespace FlightRes
                     {
                         String Email = textBox1.Text;
                         String password = textBox2.Text;
+                        SqlCommand updateStatus = new SqlCommand("UPDATE ADMIN SET STATUS = 1 WHERE A_EMAIL = '"+ Email +"'", con);
+                        updateStatus.ExecuteNonQuery();
                         Form adminPanel = new AdminPanel();
                         adminPanel.Show();
                         this.Hide();
@@ -83,6 +85,8 @@ namespace FlightRes
                     {
                         String Email = textBox1.Text;
                         String password = textBox2.Text;
+                        SqlCommand updateStatus = new SqlCommand("UPDATE PASSENGER SET STATUS = 1 WHERE P_EMAIL = '" + Email + "'", con);
+                        updateStatus.ExecuteNonQuery();
                         Form passengerPanel = new PassengerPanel();
                         passengerPanel.Show();
                         this.Hide();

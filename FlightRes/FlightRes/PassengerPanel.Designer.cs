@@ -28,62 +28,64 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button6 = new Button();
-            button5 = new Button();
-            button1 = new Button();
-            Welcome_text = new Label();
-            SuspendLayout();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.Welcome_text = new System.Windows.Forms.Label();
+            this.SuspendLayout();
             // 
             // button6
             // 
-            button6.Location = new Point(314, 282);
-            button6.Name = "button6";
-            button6.Size = new Size(156, 53);
-            button6.TabIndex = 57;
-            button6.Text = "Log out";
-            button6.UseVisualStyleBackColor = true;
+            this.button6.Location = new System.Drawing.Point(314, 282);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(156, 53);
+            this.button6.TabIndex = 57;
+            this.button6.Text = "Log out";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button5
             // 
-            button5.Location = new Point(314, 223);
-            button5.Name = "button5";
-            button5.Size = new Size(156, 53);
-            button5.TabIndex = 56;
-            button5.Text = "View Profile";
-            button5.UseVisualStyleBackColor = true;
+            this.button5.Location = new System.Drawing.Point(314, 223);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(156, 53);
+            this.button5.TabIndex = 56;
+            this.button5.Text = "View Profile";
+            this.button5.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
-            button1.Location = new Point(314, 164);
-            button1.Name = "button1";
-            button1.Size = new Size(156, 53);
-            button1.TabIndex = 52;
-            button1.Text = "View available flights";
-            button1.UseVisualStyleBackColor = true;
+            this.button1.Location = new System.Drawing.Point(314, 164);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(156, 53);
+            this.button1.TabIndex = 52;
+            this.button1.Text = "View available flights";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // Welcome_text
             // 
-            Welcome_text.AutoSize = true;
-            Welcome_text.Font = new Font("Ubuntu", 16.1999989F, FontStyle.Bold, GraphicsUnit.Point);
-            Welcome_text.Location = new Point(219, 51);
-            Welcome_text.Name = "Welcome_text";
-            Welcome_text.Size = new Size(147, 34);
-            Welcome_text.TabIndex = 51;
-            Welcome_text.Text = "Welcome, ";
+            this.Welcome_text.AutoSize = true;
+            this.Welcome_text.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Welcome_text.Location = new System.Drawing.Point(219, 51);
+            this.Welcome_text.Name = "Welcome_text";
+            this.Welcome_text.Size = new System.Drawing.Size(150, 31);
+            this.Welcome_text.TabIndex = 51;
+            this.Welcome_text.Text = "Welcome, ";
             // 
             // PassengerPanel
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(button6);
-            Controls.Add(button5);
-            Controls.Add(button1);
-            Controls.Add(Welcome_text);
-            Name = "PassengerPanel";
-            Text = "PassengerPanel";
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button6);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.Welcome_text);
+            this.Name = "PassengerPanel";
+            this.Text = "PassengerPanel";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
