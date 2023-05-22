@@ -28,111 +28,111 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.Welcome_text = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.SuspendLayout();
+            Welcome_text = new Label();
+            button2 = new Button();
+            button1 = new Button();
+            button3 = new Button();
+            button4 = new Button();
+            button5 = new Button();
+            button6 = new Button();
+            label1 = new Label();
+            SuspendLayout();
             // 
             // Welcome_text
             // 
-            this.Welcome_text.AutoSize = true;
-            this.Welcome_text.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Welcome_text.Location = new System.Drawing.Point(233, 33);
-            this.Welcome_text.Name = "Welcome_text";
-            this.Welcome_text.Size = new System.Drawing.Size(156, 32);
-            this.Welcome_text.TabIndex = 28;
-            this.Welcome_text.Text = "Welcome, ";
+            Welcome_text.AutoSize = true;
+            Welcome_text.Font = new Font("Microsoft Sans Serif", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
+            Welcome_text.Location = new Point(233, 33);
+            Welcome_text.Name = "Welcome_text";
+            Welcome_text.Size = new Size(156, 32);
+            Welcome_text.TabIndex = 28;
+            Welcome_text.Text = "Welcome, ";
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(235, 196);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(156, 53);
-            this.button2.TabIndex = 46;
-            this.button2.Text = "View all aircrafts";
-            this.button2.UseVisualStyleBackColor = true;
+            button2.Location = new Point(235, 196);
+            button2.Name = "button2";
+            button2.Size = new Size(156, 53);
+            button2.TabIndex = 46;
+            button2.Text = "View all aircrafts";
+            button2.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(235, 137);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(156, 53);
-            this.button1.TabIndex = 45;
-            this.button1.Text = "View all flights";
-            this.button1.UseVisualStyleBackColor = true;
+            button1.Location = new Point(235, 137);
+            button1.Name = "button1";
+            button1.Size = new Size(156, 53);
+            button1.TabIndex = 45;
+            button1.Text = "View all flights";
+            button1.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(412, 137);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(156, 53);
-            this.button3.TabIndex = 47;
-            this.button3.Text = "Edit Flights";
-            this.button3.UseVisualStyleBackColor = true;
+            button3.Location = new Point(412, 137);
+            button3.Name = "button3";
+            button3.Size = new Size(156, 53);
+            button3.TabIndex = 47;
+            button3.Text = "Edit Flights";
+            button3.UseVisualStyleBackColor = true;
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(412, 196);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(156, 53);
-            this.button4.TabIndex = 48;
-            this.button4.Text = "Edit Aircrafts";
-            this.button4.UseVisualStyleBackColor = true;
+            button4.Location = new Point(412, 196);
+            button4.Name = "button4";
+            button4.Size = new Size(156, 53);
+            button4.TabIndex = 48;
+            button4.Text = "Edit Aircrafts";
+            button4.UseVisualStyleBackColor = true;
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(321, 255);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(156, 53);
-            this.button5.TabIndex = 49;
-            this.button5.Text = "View Profile";
-            this.button5.UseVisualStyleBackColor = true;
+            button5.Location = new Point(321, 255);
+            button5.Name = "button5";
+            button5.Size = new Size(156, 53);
+            button5.TabIndex = 49;
+            button5.Text = "View Profile";
+            button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click_1;
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(321, 314);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(156, 53);
-            this.button6.TabIndex = 50;
-            this.button6.Text = "Log out";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            button6.Location = new Point(321, 314);
+            button6.Name = "button6";
+            button6.Size = new Size(156, 53);
+            button6.TabIndex = 50;
+            button6.Text = "Log out";
+            button6.UseVisualStyleBackColor = true;
+            button6.Click += button6_Click;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label1.Location = new System.Drawing.Point(385, 33);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(165, 32);
-            this.label1.TabIndex = 59;
-            this.label1.Text = "First + Last";
-            this.label1.Visible = false;
+            label1.AutoSize = true;
+            label1.Font = new Font("Microsoft Sans Serif", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.ForeColor = SystemColors.Highlight;
+            label1.Location = new Point(385, 33);
+            label1.Name = "label1";
+            label1.Size = new Size(165, 32);
+            label1.TabIndex = 59;
+            label1.Text = "First + Last";
+            label1.Visible = false;
             // 
             // AdminPanel
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.Welcome_text);
-            this.Name = "AdminPanel";
-            this.Text = "Admin Home";
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(label1);
+            Controls.Add(button6);
+            Controls.Add(button5);
+            Controls.Add(button4);
+            Controls.Add(button3);
+            Controls.Add(button2);
+            Controls.Add(button1);
+            Controls.Add(Welcome_text);
+            Name = "AdminPanel";
+            Text = "Admin Home";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion

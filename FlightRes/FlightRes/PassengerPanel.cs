@@ -59,7 +59,9 @@ namespace FlightRes
 
         private void button5_Click(object sender, EventArgs e)
         {
-
+            Form view = new viewProfilePassenger();
+            view.Show();
+            this.Hide();
         }
     }
 }

@@ -64,12 +64,19 @@ namespace FlightRes
                 SqlCommand updateStatus = new SqlCommand("UPDATE ADMIN SET STATUS = 0 WHERE A_EMAIL = '" + Email + "'", con);
                 updateStatus.ExecuteNonQuery();
             }
-            
+
             con.Close();
             Form start = new Start();
             start.Show();
             this.Hide();
-            
+
+        }
+
+        private void button5_Click_1(object sender, EventArgs e)
+        {
+            Form view_profile = new viewProfile();
+            view_profile.Show();
+            this.Hide();
         }
     }
 }
