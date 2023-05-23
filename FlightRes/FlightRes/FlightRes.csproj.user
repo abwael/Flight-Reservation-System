@@ -7,6 +7,12 @@
     <Compile Update="AddFlight.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="BookFlight.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ChooseSeat.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="DeleteAircraft.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -32,6 +38,9 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="ViewAircraftAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ViewBookedFlights.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="ViewFlightsAdmin.cs">

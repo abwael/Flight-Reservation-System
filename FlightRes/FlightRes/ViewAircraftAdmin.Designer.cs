@@ -28,129 +28,130 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button5 = new Button();
-            button4 = new Button();
-            textBox1 = new TextBox();
-            label1 = new Label();
-            comboBox1 = new ComboBox();
-            button3 = new Button();
-            button2 = new Button();
-            button1 = new Button();
-            dataGridView1 = new DataGridView();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
-            SuspendLayout();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.SuspendLayout();
             // 
             // button5
             // 
-            button5.Location = new Point(599, 373);
-            button5.Name = "button5";
-            button5.Size = new Size(156, 53);
-            button5.TabIndex = 26;
-            button5.Text = "Back";
-            button5.UseVisualStyleBackColor = true;
-            button5.Click += button5_Click;
+            this.button5.Location = new System.Drawing.Point(599, 373);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(156, 53);
+            this.button5.TabIndex = 26;
+            this.button5.Text = "Back";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button4
             // 
-            button4.Location = new Point(594, 318);
-            button4.Name = "button4";
-            button4.Size = new Size(67, 30);
-            button4.TabIndex = 25;
-            button4.Text = "Search";
-            button4.UseVisualStyleBackColor = true;
-            button4.Click += button4_Click;
+            this.button4.Location = new System.Drawing.Point(594, 318);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(67, 30);
+            this.button4.TabIndex = 25;
+            this.button4.Text = "Search";
+            this.button4.UseVisualStyleBackColor = true;
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(377, 320);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(189, 27);
-            textBox1.TabIndex = 24;
+            this.textBox1.Location = new System.Drawing.Point(377, 320);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(189, 27);
+            this.textBox1.TabIndex = 24;
             // 
             // label1
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(127, 324);
-            label1.Name = "label1";
-            label1.Size = new Size(76, 20);
-            label1.TabIndex = 23;
-            label1.Text = "Search By:";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(127, 324);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(76, 20);
+            this.label1.TabIndex = 23;
+            this.label1.Text = "Search By:";
             // 
             // comboBox1
             // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Items.AddRange(new object[] { "All", "Aircraft ID", "Total Seats" });
-            comboBox1.Location = new Point(211, 319);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(151, 28);
-            comboBox1.TabIndex = 22;
-            comboBox1.Tag = "";
-            comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "All",
+            "Aircraft ID",
+            "Total Seats"});
+            this.comboBox1.Location = new System.Drawing.Point(211, 319);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(151, 28);
+            this.comboBox1.TabIndex = 22;
+            this.comboBox1.Tag = "";
             // 
             // button3
             // 
-            button3.Location = new Point(415, 373);
-            button3.Name = "button3";
-            button3.Size = new Size(156, 53);
-            button3.TabIndex = 21;
-            button3.Text = "Delete Aircraft";
-            button3.UseVisualStyleBackColor = true;
-            button3.Click += button3_Click;
+            this.button3.Location = new System.Drawing.Point(415, 373);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(156, 53);
+            this.button3.TabIndex = 21;
+            this.button3.Text = "Delete Aircraft";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
-            button2.Location = new Point(233, 373);
-            button2.Name = "button2";
-            button2.Size = new Size(156, 53);
-            button2.TabIndex = 20;
-            button2.Text = "Edit Aircraft";
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
+            this.button2.Location = new System.Drawing.Point(233, 373);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(156, 53);
+            this.button2.TabIndex = 20;
+            this.button2.Text = "Edit Aircraft";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
-            button1.Location = new Point(53, 373);
-            button1.Name = "button1";
-            button1.Size = new Size(156, 53);
-            button1.TabIndex = 19;
-            button1.Text = "Add Aircraft";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            this.button1.Location = new System.Drawing.Point(53, 373);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(156, 53);
+            this.button1.TabIndex = 19;
+            this.button1.Text = "Add Aircraft";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // dataGridView1
             // 
-            dataGridView1.AllowUserToAddRows = false;
-            dataGridView1.AllowUserToDeleteRows = false;
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Dock = DockStyle.Top;
-            dataGridView1.Location = new Point(0, 0);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.ReadOnly = true;
-            dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.RowTemplate.Height = 29;
-            dataGridView1.Size = new Size(800, 290);
-            dataGridView1.TabIndex = 27;
+            this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.dataGridView1.Location = new System.Drawing.Point(0, 0);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.ReadOnly = true;
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.RowTemplate.Height = 29;
+            this.dataGridView1.Size = new System.Drawing.Size(800, 290);
+            this.dataGridView1.TabIndex = 27;
             // 
             // ViewAircraftAdmin
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(dataGridView1);
-            Controls.Add(button5);
-            Controls.Add(button4);
-            Controls.Add(textBox1);
-            Controls.Add(label1);
-            Controls.Add(comboBox1);
-            Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(button1);
-            Name = "ViewAircraftAdmin";
-            Text = "ViewAircraftAdmin";
-            Load += ViewAircraftAdmin_Load;
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
+            this.Name = "ViewAircraftAdmin";
+            this.Text = "ViewAircraftAdmin";
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion

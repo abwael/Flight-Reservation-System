@@ -73,7 +73,9 @@ namespace FlightRes
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            Form BookedFlightsPage = new ViewBookedFlights();
+            BookedFlightsPage.Show();
+            this.Hide();
         }
     }
 }

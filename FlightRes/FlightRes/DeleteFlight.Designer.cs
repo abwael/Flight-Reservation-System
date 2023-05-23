@@ -28,75 +28,75 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button2 = new Button();
-            button1 = new Button();
-            label2 = new Label();
-            textBox1 = new TextBox();
-            Welcome_text = new Label();
-            SuspendLayout();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.Welcome_text = new System.Windows.Forms.Label();
+            this.SuspendLayout();
             // 
             // button2
             // 
-            button2.Location = new Point(404, 256);
-            button2.Name = "button2";
-            button2.Size = new Size(156, 53);
-            button2.TabIndex = 46;
-            button2.Text = "Back";
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
+            this.button2.Location = new System.Drawing.Point(404, 256);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(156, 53);
+            this.button2.TabIndex = 46;
+            this.button2.Text = "Back";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
-            button1.Location = new Point(231, 256);
-            button1.Name = "button1";
-            button1.Size = new Size(156, 53);
-            button1.TabIndex = 45;
-            button1.Text = "Delete";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            this.button1.Location = new System.Drawing.Point(231, 256);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(156, 53);
+            this.button1.TabIndex = 45;
+            this.button1.Text = "Delete";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label2
             // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Microsoft Sans Serif", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.Location = new Point(163, 183);
-            label2.Name = "label2";
-            label2.Size = new Size(235, 29);
-            label2.TabIndex = 43;
-            label2.Text = "Enter Flight Number:";
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label2.Location = new System.Drawing.Point(163, 183);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(235, 29);
+            this.label2.TabIndex = 43;
+            this.label2.Text = "Enter Flight Number:";
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(404, 185);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(246, 27);
-            textBox1.TabIndex = 41;
+            this.textBox1.Location = new System.Drawing.Point(404, 185);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(246, 27);
+            this.textBox1.TabIndex = 41;
             // 
             // Welcome_text
             // 
-            Welcome_text.AutoSize = true;
-            Welcome_text.Font = new Font("Microsoft Sans Serif", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
-            Welcome_text.Location = new Point(294, 123);
-            Welcome_text.Name = "Welcome_text";
-            Welcome_text.Size = new Size(188, 32);
-            Welcome_text.TabIndex = 37;
-            Welcome_text.Text = "Delete Flight";
+            this.Welcome_text.AutoSize = true;
+            this.Welcome_text.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Welcome_text.Location = new System.Drawing.Point(294, 123);
+            this.Welcome_text.Name = "Welcome_text";
+            this.Welcome_text.Size = new System.Drawing.Size(188, 32);
+            this.Welcome_text.TabIndex = 37;
+            this.Welcome_text.Text = "Delete Flight";
             // 
             // DeleteFlight
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(button2);
-            Controls.Add(button1);
-            Controls.Add(label2);
-            Controls.Add(textBox1);
-            Controls.Add(Welcome_text);
-            Name = "DeleteFlight";
-            Text = "DeleteFlight";
-            Load += DeleteFlight_Load;
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.Welcome_text);
+            this.Name = "DeleteFlight";
+            this.Text = "DeleteFlight";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion

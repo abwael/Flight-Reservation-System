@@ -146,3 +146,21 @@ C:\Users\areyo\Desktop\FCAI\Database Project-main\Database_Project\FlightRes\Fli
 C:\Users\areyo\Desktop\FCAI\Database Project-main\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.DeleteAircraft.resources
 C:\Users\areyo\Desktop\FCAI\Database Project-main\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.EditAircraft.resources
 C:\Users\areyo\Desktop\FCAI\Database Project-main\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.ViewFlightsPassenger.resources
+C:\Users\Omar\source\repos\FlightReservation\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.AddAircraft.resources
+C:\Users\Omar\source\repos\FlightReservation\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.AddFlight.resources
+C:\Users\Omar\source\repos\FlightReservation\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.DeleteAircraft.resources
+C:\Users\Omar\source\repos\FlightReservation\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.DeleteFlight.resources
+C:\Users\Omar\source\repos\FlightReservation\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.EditAircraft.resources
+C:\Users\Omar\source\repos\FlightReservation\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.EditFlight.resources
+C:\Users\Omar\source\repos\FlightReservation\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.editProfile.resources
+C:\Users\Omar\source\repos\FlightReservation\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.editProfilePassenger.resources
+C:\Users\Omar\source\repos\FlightReservation\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.editpassword.resources
+C:\Users\Omar\source\repos\FlightReservation\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.EditPassengerPass.resources
+C:\Users\Omar\source\repos\FlightReservation\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.ViewAircraftAdmin.resources
+C:\Users\Omar\source\repos\FlightReservation\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.ViewFlightsAdmin.resources
+C:\Users\Omar\source\repos\FlightReservation\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.ViewFlightsPassenger.resources
+C:\Users\Omar\source\repos\FlightReservation\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.viewProfile.resources
+C:\Users\Omar\source\repos\FlightReservation\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.viewProfilePassenger.resources
+C:\Users\Omar\source\repos\FlightReservation\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.BookFlight.resources
+C:\Users\Omar\source\repos\FlightReservation\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.ViewBookedFlights.resources
+C:\Users\Omar\source\repos\FlightReservation\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.ChooseSeat.resources

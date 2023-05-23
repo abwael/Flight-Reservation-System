@@ -32,6 +32,13 @@ namespace FlightRes
             {
                 SqlConnection con = new SqlConnection(Program.connectionString);
                 con.Open();
+                //DELETE BOOKING
+                SqlCommand deleteBooking = new SqlCommand("delete from BOOKING where FLI_FLIGHT_NUMBER = '" + textBox1.Text + "'", con);
+                deleteBooking.ExecuteNonQuery();
+                // DELETE SEATS
+                SqlCommand deleteCommand = new SqlCommand("delete from SEAT where FLIGHT_NUMBER = '" + textBox1.Text + "'", con);
+                deleteCommand.ExecuteNonQuery();
+                // DELETE FLIGHT
                 SqlCommand myCommand = new SqlCommand("delete from FLIGHT where FLIGHT_NUMBER = '" + textBox1.Text + "'", con);
                 myCommand.ExecuteNonQuery();
                 con.Close();

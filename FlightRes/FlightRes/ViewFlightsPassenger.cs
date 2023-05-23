@@ -181,5 +181,12 @@ namespace FlightRes
                 textBox1.Visible = true;
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form bookingPage = new BookFlight();
+            bookingPage.Show();
+            this.Hide();
+        }
     }
 }
