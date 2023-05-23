@@ -164,3 +164,8 @@ C:\Users\Omar\source\repos\FlightReservation\Database_Project\FlightRes\FlightRe
 C:\Users\Omar\source\repos\FlightReservation\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.BookFlight.resources
 C:\Users\Omar\source\repos\FlightReservation\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.ViewBookedFlights.resources
 C:\Users\Omar\source\repos\FlightReservation\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.ChooseSeat.resources
+C:\Users\areyo\Desktop\FCAI\Database Project-main\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.BookFlight.resources
+C:\Users\areyo\Desktop\FCAI\Database Project-main\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.ChooseSeat.resources
+C:\Users\areyo\Desktop\FCAI\Database Project-main\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.ViewBookedFlights.resources
+C:\Users\areyo\Desktop\FCAI\Database Project-main\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.EditSeat.resources
+C:\Users\areyo\Desktop\FCAI\Database Project-main\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.CancelBooking.resources

@@ -151,6 +151,7 @@ create table ADMIN (
    A_LNAME              varchar(55)          not null,
    A_PASSWORD           varchar(55)          not null,
    A_PHONE_NUMBER       varchar(11)          null,
+   Status				bit					 default 0,
    constraint PK_ADMIN primary key nonclustered (A_EMAIL)
 )
 go
@@ -217,7 +218,7 @@ go
 /*==============================================================*/
 create table FLIGHT (
    FLIGHT_NUMBER        int                  not null,
-   ID                   int                  not null,
+   AIRCRAFT_ID          int                  not null,
    A_EMAIL              varchar(255)         not null,
    FLIGHT_DATE          datetime             not null,
    ARRIVAL_TIME         datetime             not null,
@@ -233,7 +234,7 @@ go
 /* Index: FLIES_FK                                              */
 /*==============================================================*/
 create index FLIES_FK on FLIGHT (
-ID ASC
+AIRCRAFT_ID ASC
 )
 go
 
@@ -254,7 +255,8 @@ create table PASSENGER (
    P_LNAME              varchar(55)          not null,
    P_PASSWORD           varchar(55)          not null,
    P_PHONE_NUMBER       varchar(11)          not null,
-   CREDIT_CARD          varchar(20)          not null,
+   CREDIT_CARD          varchar(20)          null,
+   Status				bit					 default 0,
    constraint PK_PASSENGER primary key nonclustered (P_EMAIL)
 )
 go
@@ -264,23 +266,30 @@ go
 /*==============================================================*/
 create table SEAT (
    SEAT_NUMBER          int                  not null,
+   FLIGHT_NUMBER		int					 not null,
    STATUS               varchar(55)          not null,
    CLASS                text                 not null,
    PRICE                int                  not null,
-   constraint PK_SEAT primary key nonclustered (SEAT_NUMBER)
+   constraint PK_SEAT primary key (SEAT_NUMBER,FLIGHT_NUMBER)
 )
 go
 
+alter table SEAT
+   add constraint FK_SEAT_FROM_FLIGHT foreign key (FLIGHT_NUMBER)
+      references FLIGHT (FLIGHT_NUMBER)
+go
 
 alter table AIRCRAFT
    add constraint FK_AIRCRAFT_ADDS_UPDA_ADMIN foreign key (A_EMAIL)
       references ADMIN (A_EMAIL)
 go
 
+/*
 alter table BOOKING
    add constraint FK_BOOKING_BOOKING_FLIGHT foreign key (FLI_FLIGHT_NUMBER)
       references FLIGHT (FLIGHT_NUMBER)
 go
+*/
 
 alter table BOOKING
    add constraint FK_BOOKING_BOOKING2_PASSENGE foreign key (PAS_P_EMAIL)
@@ -288,8 +297,8 @@ alter table BOOKING
 go
 
 alter table BOOKING
-   add constraint FK_BOOKING_BOOKING3_SEAT foreign key (SEA_SEAT_NUMBER)
-      references SEAT (SEAT_NUMBER)
+   add constraint FK_BOOKING_BOOKING3_SEAT foreign key (SEA_SEAT_NUMBER,FLI_FLIGHT_NUMBER)
+      references SEAT (SEAT_NUMBER,FLIGHT_NUMBER)
 go
 
 alter table FLIGHT
@@ -298,7 +307,7 @@ alter table FLIGHT
 go
 
 alter table FLIGHT
-   add constraint FK_FLIGHT_FLIES_AIRCRAFT foreign key (ID)
+   add constraint FK_FLIGHT_FLIES_AIRCRAFT foreign key (AIRCRAFT_ID)
       references AIRCRAFT (ID)
 go
 

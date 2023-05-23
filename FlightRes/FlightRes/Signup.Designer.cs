@@ -28,232 +28,231 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.Welcome_text = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.goodNews = new System.Windows.Forms.Label();
-            this.SuspendLayout();
+            label6 = new Label();
+            label7 = new Label();
+            textBox5 = new TextBox();
+            textBox6 = new TextBox();
+            label4 = new Label();
+            label5 = new Label();
+            textBox3 = new TextBox();
+            textBox4 = new TextBox();
+            button1 = new Button();
+            label3 = new Label();
+            label2 = new Label();
+            textBox2 = new TextBox();
+            textBox1 = new TextBox();
+            label1 = new Label();
+            radioButton2 = new RadioButton();
+            radioButton1 = new RadioButton();
+            Welcome_text = new Label();
+            button2 = new Button();
+            goodNews = new Label();
+            SuspendLayout();
             // 
             // label6
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label6.Location = new System.Drawing.Point(185, 299);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(216, 29);
-            this.label6.TabIndex = 43;
-            this.label6.Text = "Confirm Password:";
+            label6.AutoSize = true;
+            label6.Font = new Font("Microsoft Sans Serif", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            label6.Location = new Point(185, 299);
+            label6.Name = "label6";
+            label6.Size = new Size(216, 29);
+            label6.TabIndex = 43;
+            label6.Text = "Confirm Password:";
             // 
             // label7
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label7.Location = new System.Drawing.Point(275, 254);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(126, 29);
-            this.label7.TabIndex = 42;
-            this.label7.Text = "Password:";
+            label7.AutoSize = true;
+            label7.Font = new Font("Microsoft Sans Serif", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            label7.Location = new Point(275, 254);
+            label7.Name = "label7";
+            label7.Size = new Size(126, 29);
+            label7.TabIndex = 42;
+            label7.Text = "Password:";
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(401, 301);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.PasswordChar = '*';
-            this.textBox5.Size = new System.Drawing.Size(217, 27);
-            this.textBox5.TabIndex = 41;
+            textBox5.Location = new Point(401, 301);
+            textBox5.Name = "textBox5";
+            textBox5.PasswordChar = '*';
+            textBox5.Size = new Size(217, 27);
+            textBox5.TabIndex = 41;
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(402, 256);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.PasswordChar = '*';
-            this.textBox6.Size = new System.Drawing.Size(177, 27);
-            this.textBox6.TabIndex = 40;
+            textBox6.Location = new Point(402, 256);
+            textBox6.Name = "textBox6";
+            textBox6.PasswordChar = '*';
+            textBox6.Size = new Size(177, 27);
+            textBox6.TabIndex = 40;
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(377, 194);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(182, 29);
-            this.label4.TabIndex = 39;
-            this.label4.Text = "Phone Number:";
+            label4.AutoSize = true;
+            label4.Font = new Font("Microsoft Sans Serif", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            label4.Location = new Point(377, 194);
+            label4.Name = "label4";
+            label4.Size = new Size(182, 29);
+            label4.TabIndex = 39;
+            label4.Text = "Phone Number:";
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label5.Location = new System.Drawing.Point(377, 154);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(80, 29);
-            this.label5.TabIndex = 38;
-            this.label5.Text = "Email:";
+            label5.AutoSize = true;
+            label5.Font = new Font("Microsoft Sans Serif", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            label5.Location = new Point(377, 154);
+            label5.Name = "label5";
+            label5.Size = new Size(80, 29);
+            label5.TabIndex = 38;
+            label5.Text = "Email:";
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(560, 194);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(192, 27);
-            this.textBox3.TabIndex = 37;
+            textBox3.Location = new Point(560, 194);
+            textBox3.Name = "textBox3";
+            textBox3.Size = new Size(192, 27);
+            textBox3.TabIndex = 37;
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(460, 149);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(292, 27);
-            this.textBox4.TabIndex = 36;
+            textBox4.Location = new Point(460, 149);
+            textBox4.Name = "textBox4";
+            textBox4.Size = new Size(292, 27);
+            textBox4.TabIndex = 36;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(237, 368);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(156, 53);
-            this.button1.TabIndex = 35;
-            this.button1.Text = "Sign up";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            button1.Location = new Point(237, 368);
+            button1.Name = "button1";
+            button1.Size = new Size(156, 53);
+            button1.TabIndex = 35;
+            button1.Text = "Sign up";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(48, 191);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(134, 29);
-            this.label3.TabIndex = 34;
-            this.label3.Text = "Last Name:";
+            label3.AutoSize = true;
+            label3.Font = new Font("Microsoft Sans Serif", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            label3.Location = new Point(48, 191);
+            label3.Name = "label3";
+            label3.Size = new Size(134, 29);
+            label3.TabIndex = 34;
+            label3.Text = "Last Name:";
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(48, 149);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(137, 29);
-            this.label2.TabIndex = 33;
-            this.label2.Text = "First Name:";
+            label2.AutoSize = true;
+            label2.Font = new Font("Microsoft Sans Serif", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.Location = new Point(48, 149);
+            label2.Name = "label2";
+            label2.Size = new Size(137, 29);
+            label2.TabIndex = 33;
+            label2.Text = "First Name:";
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(185, 196);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(177, 27);
-            this.textBox2.TabIndex = 32;
+            textBox2.Location = new Point(185, 196);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(177, 27);
+            textBox2.TabIndex = 32;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(185, 151);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(177, 27);
-            this.textBox1.TabIndex = 31;
+            textBox1.Location = new Point(185, 151);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(177, 27);
+            textBox1.TabIndex = 31;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(240, 92);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(132, 29);
-            this.label1.TabIndex = 30;
-            this.label1.Text = "Sign up as:";
+            label1.AutoSize = true;
+            label1.Font = new Font("Microsoft Sans Serif", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.Location = new Point(240, 92);
+            label1.Name = "label1";
+            label1.Size = new Size(132, 29);
+            label1.TabIndex = 30;
+            label1.Text = "Sign up as:";
             // 
             // radioButton2
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(452, 97);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(95, 24);
-            this.radioButton2.TabIndex = 29;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Passenger";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            radioButton2.AutoSize = true;
+            radioButton2.Location = new Point(452, 97);
+            radioButton2.Name = "radioButton2";
+            radioButton2.Size = new Size(95, 24);
+            radioButton2.TabIndex = 29;
+            radioButton2.TabStop = true;
+            radioButton2.Text = "Passenger";
+            radioButton2.UseVisualStyleBackColor = true;
             // 
             // radioButton1
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(372, 98);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(74, 24);
-            this.radioButton1.TabIndex = 28;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Admin";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            radioButton1.AutoSize = true;
+            radioButton1.Location = new Point(372, 98);
+            radioButton1.Name = "radioButton1";
+            radioButton1.Size = new Size(74, 24);
+            radioButton1.TabIndex = 28;
+            radioButton1.TabStop = true;
+            radioButton1.Text = "Admin";
+            radioButton1.UseVisualStyleBackColor = true;
             // 
             // Welcome_text
             // 
-            this.Welcome_text.AutoSize = true;
-            this.Welcome_text.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Welcome_text.Location = new System.Drawing.Point(334, 32);
-            this.Welcome_text.Name = "Welcome_text";
-            this.Welcome_text.Size = new System.Drawing.Size(118, 32);
-            this.Welcome_text.TabIndex = 27;
-            this.Welcome_text.Text = "Sign up";
+            Welcome_text.AutoSize = true;
+            Welcome_text.Font = new Font("Microsoft Sans Serif", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
+            Welcome_text.Location = new Point(334, 32);
+            Welcome_text.Name = "Welcome_text";
+            Welcome_text.Size = new Size(118, 32);
+            Welcome_text.TabIndex = 27;
+            Welcome_text.Text = "Sign up";
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(410, 368);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(156, 53);
-            this.button2.TabIndex = 44;
-            this.button2.Text = "Back";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click_1);
+            button2.Location = new Point(410, 368);
+            button2.Name = "button2";
+            button2.Size = new Size(156, 53);
+            button2.TabIndex = 44;
+            button2.Text = "Back";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click_1;
             // 
             // goodNews
             // 
-            this.goodNews.AutoSize = true;
-            this.goodNews.Location = new System.Drawing.Point(320, 338);
-            this.goodNews.Name = "goodNews";
-            this.goodNews.Size = new System.Drawing.Size(0, 20);
-            this.goodNews.TabIndex = 45;
-            this.goodNews.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            goodNews.AutoSize = true;
+            goodNews.Location = new Point(320, 338);
+            goodNews.Name = "goodNews";
+            goodNews.Size = new Size(0, 20);
+            goodNews.TabIndex = 45;
+            goodNews.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // Signup
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.goodNews);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.radioButton2);
-            this.Controls.Add(this.radioButton1);
-            this.Controls.Add(this.Welcome_text);
-            this.Name = "Signup";
-            this.Text = "Sign up";
-            this.Load += new System.EventHandler(this.Signup_Load);
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(goodNews);
+            Controls.Add(button2);
+            Controls.Add(label6);
+            Controls.Add(label7);
+            Controls.Add(textBox5);
+            Controls.Add(textBox6);
+            Controls.Add(label4);
+            Controls.Add(label5);
+            Controls.Add(textBox3);
+            Controls.Add(textBox4);
+            Controls.Add(button1);
+            Controls.Add(label3);
+            Controls.Add(label2);
+            Controls.Add(textBox2);
+            Controls.Add(textBox1);
+            Controls.Add(label1);
+            Controls.Add(radioButton2);
+            Controls.Add(radioButton1);
+            Controls.Add(Welcome_text);
+            Name = "Signup";
+            Text = "Sign up";
+            Load += Signup_Load;
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion

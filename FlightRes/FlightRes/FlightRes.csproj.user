@@ -10,6 +10,9 @@
     <Compile Update="BookFlight.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="CancelBooking.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="ChooseSeat.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -29,6 +32,9 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="editProfilePassenger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="EditSeat.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Form1.cs">

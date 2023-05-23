@@ -43,5 +43,31 @@ namespace FlightRes
             passengerPanel.Show();
             this.Hide();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Form passengerPanel = new PassengerPanel();
+            passengerPanel.Show();
+            this.Hide();
+        }
+
+        private void ViewBookedFlights_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Form edit = new EditSeat();
+            edit.Show();
+            this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form cancel = new CancelBooking();
+            cancel.Show();
+            this.Hide();
+        }
     }
 }

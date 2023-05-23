@@ -23,7 +23,7 @@ namespace FlightRes
             this.SeatsAvailable = MaxSeatsAvailable;
             SqlConnection con = new SqlConnection(Program.connectionString);
             con.Open();
-            SqlCommand myCommand = new SqlCommand("SELECT * FROM SEAT WHERE FLIGHT_NUMBER = '"+Flight_Number+"' AND STATUS = 'AVAILABLE'", con);
+            SqlCommand myCommand = new SqlCommand("SELECT * FROM SEAT WHERE FLIGHT_NUMBER = '" + Flight_Number + "' AND STATUS = 'AVAILABLE'", con);
             SqlDataAdapter sda = new SqlDataAdapter(myCommand);
             DataTable dataTable = new DataTable();
             sda.Fill(dataTable);
@@ -62,7 +62,7 @@ namespace FlightRes
                     updateAvailableSeats.ExecuteNonQuery();
 
                     SqlCommand updateSeatStatus = new SqlCommand("UPDATE SEAT SET STATUS = @status where FLIGHT_NUMBER = @FlightNumber AND SEAT_NUMBER = @SeatNumber", con);
-                
+
                     updateSeatStatus.Parameters.AddWithValue("@status", "unavailable");
                     updateSeatStatus.Parameters.AddWithValue("@FlightNumber", Global_Flight_Number);
                     updateSeatStatus.Parameters.AddWithValue("@SeatNumber", textBox1.Text);
@@ -72,7 +72,7 @@ namespace FlightRes
                     BookedFlightsPage.Show();
                     this.Hide();
                 }
-                catch(Exception ex)
+                catch (Exception ex)
                 {
                     MessageBox.Show(ex.Message.ToString());
                 }

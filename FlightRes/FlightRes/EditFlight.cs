@@ -34,7 +34,6 @@ namespace FlightRes
                 DateTime LauTime = data.GetDateTime(5);
                 String Source = data.GetValue(6).ToString();
                 String Destination = data.GetValue(7).ToString();
-                String Seats = data.GetValue(8).ToString();
 
                 textBox1.Text = FNum;
                 textBox2.Text = ANum;
@@ -44,7 +43,6 @@ namespace FlightRes
                 dateTimePicker2.Value = ArrTime;
                 textBox8.Text = Source;
                 textBox7.Text = Destination;
-                textBox10.Text = Seats;
             }
             data.Close();
             con.Close();
@@ -59,7 +57,7 @@ namespace FlightRes
                 con.Open();
 
                 //creating the sql insertion code 
-                SqlCommand myCommand = new SqlCommand("UPDATE FLIGHT SET FLIGHT_NUMBER = @flightNumber, AIRCRAFT_ID = @aircraftId, A_EMAIL = @aEmail,FLIGHT_DATE = @flightDate, ARRIVAL_TIME = @arrivalTime, LAUNCHING_TIME = @launchingTime, SOURCE_PLACE = @sourcePlace,DESTINATION_PLACE = @destinationPlace, SEATS_AVAILABLE = @seatsAvailable where FLIGHT_NUMBER = '" + textBox3.Text + "'", con);
+                SqlCommand myCommand = new SqlCommand("UPDATE FLIGHT SET FLIGHT_NUMBER = @flightNumber, AIRCRAFT_ID = @aircraftId, A_EMAIL = @aEmail,FLIGHT_DATE = @flightDate, ARRIVAL_TIME = @arrivalTime, LAUNCHING_TIME = @launchingTime, SOURCE_PLACE = @sourcePlace,DESTINATION_PLACE = @destinationPlace where FLIGHT_NUMBER = '" + textBox3.Text + "'", con);
                 myCommand.Parameters.AddWithValue("@flightNumber", textBox1.Text);
                 myCommand.Parameters.AddWithValue("@aircraftId", textBox2.Text);
                 myCommand.Parameters.AddWithValue("@aEmail", textBox4.Text);
@@ -68,7 +66,6 @@ namespace FlightRes
                 myCommand.Parameters.AddWithValue("@launchingTime", dateTimePicker3.Value);
                 myCommand.Parameters.AddWithValue("@sourcePlace", textBox8.Text);
                 myCommand.Parameters.AddWithValue("@destinationPlace", textBox7.Text);
-                myCommand.Parameters.AddWithValue("@seatsAvailable", textBox10.Text);
                 myCommand.ExecuteNonQuery();
                 con.Close();
                 MessageBox.Show("Flight Edited Successfully");
@@ -85,6 +82,11 @@ namespace FlightRes
             Form view = new ViewFlightsAdmin();
             view.Show();
             this.Hide();
+        }
+
+        private void EditFlight_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

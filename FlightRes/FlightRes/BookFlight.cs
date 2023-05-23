@@ -44,16 +44,16 @@ namespace FlightRes
             String PEmail = "";
             if (dataTable.Rows.Count > 0)
             {
-                for (int i = 0; i< dataTable.Rows.Count; i++)
+                for (int i = 0; i < dataTable.Rows.Count; i++)
                 {
-                    DialogResult result = MessageBox.Show("Flight number : "+dataTable.Rows[i][0].ToString()+"\n"+
+                    DialogResult result = MessageBox.Show("Flight number : " + dataTable.Rows[i][0].ToString() + "\n" +
                         "Flight date : " + dataTable.Rows[i][3].ToString() + "\n" +
                         "Launching time : " + dataTable.Rows[i][5].ToString() + "\n" +
                         "Arrival time : " + dataTable.Rows[i][4].ToString() + "\n"
-                        , "Flight"+" "+(i+1),MessageBoxButtons.YesNoCancel);
+                        , "Flight" + " " + (i + 1), MessageBoxButtons.YesNoCancel);
                     if (result == DialogResult.Yes)
                     {
-     
+
                         // confirm the book
                         Form ChooseSeat = new ChooseSeat(dataTable.Rows[i][0].ToString(), dataTable.Rows[i][8].ToString());
                         ChooseSeat.Show();
@@ -76,6 +76,13 @@ namespace FlightRes
         }
 
         private void button1_Click_1(object sender, EventArgs e)
+        {
+            Form passengerPanel = new PassengerPanel();
+            passengerPanel.Show();
+            this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
         {
             Form passengerPanel = new PassengerPanel();
             passengerPanel.Show();

@@ -89,7 +89,7 @@ namespace FlightRes
 
                 con.Close();
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
@@ -116,6 +116,67 @@ namespace FlightRes
             Form edit = new EditAircraft();
             edit.Show();
             this.Hide();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged_1(object sender, EventArgs e)
+        {
+            if (comboBox1.SelectedIndex == 0)
+            {
+                textBox1.Visible = false;
+            }
+            else if (comboBox1.SelectedIndex == 1)
+            {
+                textBox1.Visible = true;
+            }
+            else if (comboBox1.SelectedIndex == 2)
+            {
+                textBox1.Visible = true;
+            }
+        }
+
+        private void button4_Click_1(object sender, EventArgs e)
+        {
+            try
+            {
+                SqlConnection con = new SqlConnection(Program.connectionString);
+                con.Open();
+
+                if (comboBox1.SelectedIndex == 0)
+                {
+                    SqlCommand myCommand = new SqlCommand("SELECT * FROM AIRCRAFT", con);
+                    SqlDataAdapter sda = new SqlDataAdapter(myCommand);
+                    DataTable dataTable = new DataTable();
+                    sda.Fill(dataTable);
+                    dataGridView1.DataSource = dataTable;
+                }
+                else if (comboBox1.SelectedIndex == 1)
+                {
+                    SqlCommand myCommand = new SqlCommand("SELECT * FROM AIRCRAFT where ID = '" + textBox1.Text + "'", con);
+                    SqlDataAdapter sda = new SqlDataAdapter(myCommand);
+                    DataTable dataTable = new DataTable();
+                    sda.Fill(dataTable);
+                    dataGridView1.DataSource = dataTable;
+                }
+                else if (comboBox1.SelectedIndex == 2)
+                {
+                    SqlCommand myCommand = new SqlCommand("SELECT * FROM AIRCRAFT where TOTAL_SEATS = '" + textBox1.Text + "'", con);
+                    SqlDataAdapter sda = new SqlDataAdapter(myCommand);
+                    DataTable dataTable = new DataTable();
+                    sda.Fill(dataTable);
+                    dataGridView1.DataSource = dataTable;
+                }
+
+                con.Close();
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
     }
 }

@@ -4,7 +4,7 @@ namespace FlightRes
 {
     internal static class Program
     {
-        public static String connectionString = "Data Source=.;Initial Catalog=FlightReservation;Integrated Security=True";
+        public static String connectionString = "Data Source=LAPTOP-QVUNGHPC\\MSSQLSERVER01;Initial Catalog=FlightRes;Integrated Security=True";
         /// <summary>
         ///  The main entry point for the application.
         /// </summary>

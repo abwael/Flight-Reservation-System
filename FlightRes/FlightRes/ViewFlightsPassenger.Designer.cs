@@ -28,122 +28,114 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            this.SuspendLayout();
+            dataGridView1 = new DataGridView();
+            button5 = new Button();
+            button4 = new Button();
+            textBox1 = new TextBox();
+            label1 = new Label();
+            button1 = new Button();
+            comboBox1 = new ComboBox();
+            dateTimePicker1 = new DateTimePicker();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            SuspendLayout();
             // 
             // dataGridView1
             // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.AllowUserToDeleteRows = false;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 0);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 29;
-            this.dataGridView1.Size = new System.Drawing.Size(800, 298);
-            this.dataGridView1.TabIndex = 0;
+            dataGridView1.AllowUserToAddRows = false;
+            dataGridView1.AllowUserToDeleteRows = false;
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Dock = DockStyle.Top;
+            dataGridView1.Location = new Point(0, 0);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.ReadOnly = true;
+            dataGridView1.RowHeadersWidth = 51;
+            dataGridView1.RowTemplate.Height = 29;
+            dataGridView1.Size = new Size(800, 298);
+            dataGridView1.TabIndex = 0;
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(409, 379);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(156, 53);
-            this.button5.TabIndex = 34;
-            this.button5.Text = "Back";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            button5.Location = new Point(409, 379);
+            button5.Name = "button5";
+            button5.Size = new Size(156, 53);
+            button5.TabIndex = 34;
+            button5.Text = "Back";
+            button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(593, 330);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(67, 30);
-            this.button4.TabIndex = 33;
-            this.button4.Text = "Search";
-            this.button4.UseVisualStyleBackColor = true;
+            button4.Location = new Point(593, 330);
+            button4.Name = "button4";
+            button4.Size = new Size(67, 30);
+            button4.TabIndex = 33;
+            button4.Text = "Search";
+            button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click_1;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(376, 332);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(189, 27);
-            this.textBox1.TabIndex = 32;
+            textBox1.Location = new Point(376, 332);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(189, 27);
+            textBox1.TabIndex = 32;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(126, 336);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(76, 20);
-            this.label1.TabIndex = 31;
-            this.label1.Text = "Search By:";
+            label1.AutoSize = true;
+            label1.Location = new Point(126, 336);
+            label1.Name = "label1";
+            label1.Size = new Size(76, 20);
+            label1.TabIndex = 31;
+            label1.Text = "Search By:";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(234, 379);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(156, 53);
-            this.button1.TabIndex = 27;
-            this.button1.Text = "Book Flight";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            button1.Location = new Point(234, 379);
+            button1.Name = "button1";
+            button1.Size = new Size(156, 53);
+            button1.TabIndex = 27;
+            button1.Text = "Book Flight";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // comboBox1
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "All",
-            "Flight Num",
-            "Aircraft Num",
-            "Flight Date",
-            "Arrival Time",
-            "Launching Time",
-            "Source Place",
-            "Distination Place",
-            "Seats Available "});
-            this.comboBox1.Location = new System.Drawing.Point(219, 333);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(151, 28);
-            this.comboBox1.TabIndex = 35;
-            this.comboBox1.Tag = "";
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Items.AddRange(new object[] { "All", "Flight Num", "Aircraft Num", "Flight Date", "Arrival Time", "Launching Time", "Source Place", "Distination Place", "Seats Available " });
+            comboBox1.Location = new Point(219, 333);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(151, 28);
+            comboBox1.TabIndex = 35;
+            comboBox1.Tag = "";
+            comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged_1;
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.dateTimePicker1.Location = new System.Drawing.Point(376, 332);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(189, 27);
-            this.dateTimePicker1.TabIndex = 36;
+            dateTimePicker1.Format = DateTimePickerFormat.Time;
+            dateTimePicker1.Location = new Point(376, 332);
+            dateTimePicker1.Name = "dateTimePicker1";
+            dateTimePicker1.Size = new Size(189, 27);
+            dateTimePicker1.TabIndex = 36;
             // 
             // ViewFlightsPassenger
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.dataGridView1);
-            this.Name = "ViewFlightsPassenger";
-            this.Text = "ViewFlightsPassenger";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(dateTimePicker1);
+            Controls.Add(comboBox1);
+            Controls.Add(button5);
+            Controls.Add(button4);
+            Controls.Add(textBox1);
+            Controls.Add(label1);
+            Controls.Add(button1);
+            Controls.Add(dataGridView1);
+            Name = "ViewFlightsPassenger";
+            Text = "ViewFlightsPassenger";
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
