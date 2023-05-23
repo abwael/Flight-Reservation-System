@@ -12,18 +12,11 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace FlightRes
 {
-    public partial class DeleteFlight : Form
+    public partial class AddAircraft : Form
     {
-        public DeleteFlight()
+        public AddAircraft()
         {
             InitializeComponent();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Form view = new ViewFlightsAdmin();
-            view.Show();
-            this.Hide();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -31,20 +24,32 @@ namespace FlightRes
             try
             {
                 SqlConnection con = new SqlConnection(Program.connectionString);
+
                 con.Open();
-                SqlCommand myCommand = new SqlCommand("delete from FLIGHT where FLIGHT_NUMBER = '" + textBox1.Text + "'", con);
+
+                //creating the sql insertion code 
+                SqlCommand myCommand = new SqlCommand("insert into AIRCRAFT (ID,A_EMAIL,TOTAL_SEATS) values(@id,@aEmail,@totalSeats)", con);
+                myCommand.Parameters.AddWithValue("@id", textBox2.Text);
+                myCommand.Parameters.AddWithValue("@aEmail", textBox4.Text);
+                myCommand.Parameters.AddWithValue("@totalSeats", textBox10.Text);
                 myCommand.ExecuteNonQuery();
                 con.Close();
-                MessageBox.Show("Flight Deleted Successfully");
+                MessageBox.Show("Aircraft Added Successfully");
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
-
         }
 
-        private void DeleteFlight_Load(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form view = new ViewAircraftAdmin();
+            view.Show();
+            this.Hide();
+        }
+
+        private void AddAircraft_Load(object sender, EventArgs e)
         {
 
         }

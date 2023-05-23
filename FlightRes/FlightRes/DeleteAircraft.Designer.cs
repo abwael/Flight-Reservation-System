@@ -1,6 +1,6 @@
 ﻿namespace FlightRes
 {
-    partial class DeleteFlight
+    partial class DeleteAircraft
     {
         /// <summary>
         /// Required designer variable.
@@ -37,20 +37,20 @@
             // 
             // button2
             // 
-            button2.Location = new Point(404, 256);
+            button2.Location = new Point(415, 265);
             button2.Name = "button2";
             button2.Size = new Size(156, 53);
-            button2.TabIndex = 46;
+            button2.TabIndex = 51;
             button2.Text = "Back";
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
             // 
             // button1
             // 
-            button1.Location = new Point(231, 256);
+            button1.Location = new Point(242, 265);
             button1.Name = "button1";
             button1.Size = new Size(156, 53);
-            button1.TabIndex = 45;
+            button1.TabIndex = 50;
             button1.Text = "Delete";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
@@ -59,30 +59,30 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Microsoft Sans Serif", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.Location = new Point(163, 183);
+            label2.Location = new Point(175, 196);
             label2.Name = "label2";
-            label2.Size = new Size(235, 29);
-            label2.TabIndex = 43;
-            label2.Text = "Enter Flight Number:";
+            label2.Size = new Size(185, 29);
+            label2.TabIndex = 49;
+            label2.Text = "Enter Aircraft ID:";
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(404, 185);
+            textBox1.Location = new Point(366, 196);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(246, 27);
-            textBox1.TabIndex = 41;
+            textBox1.TabIndex = 48;
             // 
             // Welcome_text
             // 
             Welcome_text.AutoSize = true;
             Welcome_text.Font = new Font("Microsoft Sans Serif", 16.2F, FontStyle.Bold, GraphicsUnit.Point);
-            Welcome_text.Location = new Point(294, 123);
+            Welcome_text.Location = new Point(287, 117);
             Welcome_text.Name = "Welcome_text";
-            Welcome_text.Size = new Size(188, 32);
-            Welcome_text.TabIndex = 37;
-            Welcome_text.Text = "Delete Flight";
+            Welcome_text.Size = new Size(209, 32);
+            Welcome_text.TabIndex = 47;
+            Welcome_text.Text = "Delete Aircraft";
             // 
-            // DeleteFlight
+            // DeleteAircraft
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -92,9 +92,9 @@
             Controls.Add(label2);
             Controls.Add(textBox1);
             Controls.Add(Welcome_text);
-            Name = "DeleteFlight";
-            Text = "DeleteFlight";
-            Load += DeleteFlight_Load;
+            Name = "DeleteAircraft";
+            Text = "DeleteAircraft";
+            Load += DeleteAircraft_Load;
             ResumeLayout(false);
             PerformLayout();
         }

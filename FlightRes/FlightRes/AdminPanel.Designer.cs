@@ -54,6 +54,7 @@
             button2.TabIndex = 46;
             button2.Text = "View all aircrafts";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // button1
             // 

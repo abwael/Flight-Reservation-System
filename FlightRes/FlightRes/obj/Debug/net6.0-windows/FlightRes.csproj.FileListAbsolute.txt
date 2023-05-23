@@ -141,3 +141,7 @@ C:\Users\areyo\Desktop\FCAI\Database Project-main\Database_Project\FlightRes\Fli
 C:\Users\areyo\Desktop\FCAI\Database Project-main\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.AddFlight.resources
 C:\Users\areyo\Desktop\FCAI\Database Project-main\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.DeleteFlight.resources
 C:\Users\areyo\Desktop\FCAI\Database Project-main\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.EditFlight.resources
+C:\Users\areyo\Desktop\FCAI\Database Project-main\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.ViewAircraftAdmin.resources
+C:\Users\areyo\Desktop\FCAI\Database Project-main\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.AddAircraft.resources
+C:\Users\areyo\Desktop\FCAI\Database Project-main\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.DeleteAircraft.resources
+C:\Users\areyo\Desktop\FCAI\Database Project-main\Database_Project\FlightRes\FlightRes\obj\Debug\net6.0-windows\FlightRes.EditAircraft.resources

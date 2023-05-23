@@ -8,20 +8,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace FlightRes
 {
-    public partial class DeleteFlight : Form
+    public partial class DeleteAircraft : Form
     {
-        public DeleteFlight()
+        public DeleteAircraft()
         {
             InitializeComponent();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form view = new ViewFlightsAdmin();
+            Form view = new ViewAircraftAdmin();
             view.Show();
             this.Hide();
         }
@@ -32,19 +31,18 @@ namespace FlightRes
             {
                 SqlConnection con = new SqlConnection(Program.connectionString);
                 con.Open();
-                SqlCommand myCommand = new SqlCommand("delete from FLIGHT where FLIGHT_NUMBER = '" + textBox1.Text + "'", con);
+                SqlCommand myCommand = new SqlCommand("delete from AIRCRAFT where ID = '" + textBox1.Text + "'", con);
                 myCommand.ExecuteNonQuery();
                 con.Close();
-                MessageBox.Show("Flight Deleted Successfully");
+                MessageBox.Show("Aircraft Deleted Successfully");
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
-
         }
 
-        private void DeleteFlight_Load(object sender, EventArgs e)
+        private void DeleteAircraft_Load(object sender, EventArgs e)
         {
 
         }
