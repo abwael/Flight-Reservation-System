@@ -37,6 +37,9 @@
     <Compile Update="ViewFlightsAdmin.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="ViewFlightsPassenger.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="viewProfilePassenger.cs">
       <SubType>Form</SubType>
     </Compile>

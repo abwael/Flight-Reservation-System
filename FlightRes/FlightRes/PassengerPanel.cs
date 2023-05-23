@@ -25,7 +25,7 @@ namespace FlightRes
             {
                 String Fname = data.GetValue(0).ToString();
                 String Lname = data.GetValue(1).ToString();
-                label1.Visible= true;
+                label1.Visible = true;
                 label1.Text = Fname + " " + Lname;
             }
             data.Close();
@@ -62,6 +62,18 @@ namespace FlightRes
             Form view = new viewProfilePassenger();
             view.Show();
             this.Hide();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form view = new ViewFlightsPassenger();
+            view.Show();
+            this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
