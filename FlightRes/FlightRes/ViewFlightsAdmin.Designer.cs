@@ -37,6 +37,7 @@
             textBox1 = new TextBox();
             button4 = new Button();
             button5 = new Button();
+            dateTimePicker1 = new DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -89,16 +90,17 @@
             // 
             comboBox1.FormattingEnabled = true;
             comboBox1.Items.AddRange(new object[] { "All", "Flight Num", "Aircraft Num", "Flight Date", "Arrival Time", "Launching Time", "Source Place", "Distination Place", "Seats Available " });
-            comboBox1.Location = new Point(217, 314);
+            comboBox1.Location = new Point(208, 316);
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(151, 28);
             comboBox1.TabIndex = 13;
             comboBox1.Tag = "";
+            comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(133, 319);
+            label1.Location = new Point(124, 321);
             label1.Name = "label1";
             label1.Size = new Size(76, 20);
             label1.TabIndex = 14;
@@ -107,19 +109,20 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(383, 315);
+            textBox1.Location = new Point(374, 317);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(189, 27);
             textBox1.TabIndex = 15;
             // 
             // button4
             // 
-            button4.Location = new Point(586, 313);
+            button4.Location = new Point(591, 315);
             button4.Name = "button4";
             button4.Size = new Size(67, 30);
             button4.TabIndex = 16;
             button4.Text = "Search";
             button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
             // 
             // button5
             // 
@@ -131,11 +134,20 @@
             button5.UseVisualStyleBackColor = true;
             button5.Click += button5_Click;
             // 
+            // dateTimePicker1
+            // 
+            dateTimePicker1.Format = DateTimePickerFormat.Time;
+            dateTimePicker1.Location = new Point(374, 317);
+            dateTimePicker1.Name = "dateTimePicker1";
+            dateTimePicker1.Size = new Size(189, 27);
+            dateTimePicker1.TabIndex = 18;
+            // 
             // ViewFlightsAdmin
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(dateTimePicker1);
             Controls.Add(button5);
             Controls.Add(button4);
             Controls.Add(textBox1);
@@ -164,5 +176,6 @@
         private TextBox textBox1;
         private Button button4;
         private Button button5;
+        private DateTimePicker dateTimePicker1;
     }
 }
